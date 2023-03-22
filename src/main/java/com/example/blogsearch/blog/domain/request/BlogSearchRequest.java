@@ -1,9 +1,10 @@
-package com.example.blogapi.blog.domain.request;
+package com.example.blogsearch.blog.domain.request;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+import lombok.ToString;
 
 @Schema(description = "블로그 검색 요청")
 public record BlogSearchRequest(

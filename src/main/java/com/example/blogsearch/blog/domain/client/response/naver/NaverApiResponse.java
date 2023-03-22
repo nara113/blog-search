@@ -1,4 +1,4 @@
-package com.example.blogapi.blog.domain.client.response.naver;
+package com.example.blogsearch.blog.domain.client.response.naver;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.blogapi.keyword.config;
+package com.example.blogsearch.keyword.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

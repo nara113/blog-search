@@ -1,4 +1,4 @@
-package com.example.blogapi.keyword.config;
+package com.example.blogsearch.keyword.config;
 
 import com.google.common.util.concurrent.AtomicLongMap;
 import org.springframework.context.annotation.Bean;

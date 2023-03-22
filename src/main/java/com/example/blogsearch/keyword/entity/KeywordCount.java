@@ -1,4 +1,4 @@
-package com.example.blogapi.keyword.entity;
+package com.example.blogsearch.keyword.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

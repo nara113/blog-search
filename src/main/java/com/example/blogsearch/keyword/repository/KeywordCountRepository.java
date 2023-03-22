@@ -1,6 +1,6 @@
-package com.example.blogapi.keyword.repository;
+package com.example.blogsearch.keyword.repository;
 
-import com.example.blogapi.keyword.entity.KeywordCount;
+import com.example.blogsearch.keyword.entity.KeywordCount;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

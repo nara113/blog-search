@@ -1,4 +1,4 @@
-package com.example.blogapi.keyword.event;
+package com.example.blogsearch.keyword.event;
 
 import com.google.common.util.concurrent.AtomicLongMap;
 import lombok.RequiredArgsConstructor;

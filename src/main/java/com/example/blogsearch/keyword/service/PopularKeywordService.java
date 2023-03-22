@@ -1,8 +1,8 @@
-package com.example.blogapi.keyword.service;
+package com.example.blogsearch.keyword.service;
 
-import com.example.blogapi.keyword.domain.PopularKeyword;
-import com.example.blogapi.keyword.entity.KeywordCount;
-import com.example.blogapi.keyword.repository.KeywordCountRepository;
+import com.example.blogsearch.keyword.domain.PopularKeyword;
+import com.example.blogsearch.keyword.entity.KeywordCount;
+import com.example.blogsearch.keyword.repository.KeywordCountRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;

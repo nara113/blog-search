@@ -1,4 +1,4 @@
-package com.example.blogapi.blog.domain.request;
+package com.example.blogsearch.blog.domain.request;
 
 import lombok.Getter;
 

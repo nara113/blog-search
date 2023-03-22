@@ -1,6 +1,6 @@
-package com.example.blogapi.blog.config.converter;
+package com.example.blogsearch.blog.config.converter;
 
-import com.example.blogapi.blog.domain.request.PageSort;
+import com.example.blogsearch.blog.domain.request.PageSort;
 import org.springframework.core.convert.converter.Converter;
 
 public class PageSortRequestConverter implements Converter<String, PageSort> {

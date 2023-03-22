@@ -1,11 +1,10 @@
-package com.example.blogapi.blog.domain.response;
+package com.example.blogsearch.blog.domain.response;
 
-import com.example.blogapi.blog.domain.client.response.kakao.KakaoBlogDocument;
-import com.example.blogapi.blog.domain.client.response.naver.NaverBlogDocument;
+import com.example.blogsearch.blog.domain.client.response.kakao.KakaoBlogDocument;
+import com.example.blogsearch.blog.domain.client.response.naver.NaverBlogDocument;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.ToString;
 
 import java.time.LocalDateTime;
 

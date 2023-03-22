@@ -1,9 +1,9 @@
-package com.example.blogapi.blog.controller;
+package com.example.blogsearch.blog.controller;
 
-import com.example.blogapi.blog.domain.request.BlogSearchRequest;
-import com.example.blogapi.blog.domain.response.BlogSearchResponse;
-import com.example.blogapi.blog.service.BlogService;
-import com.example.blogapi.common.response.ApiErrorResponse;
+import com.example.blogsearch.blog.domain.request.BlogSearchRequest;
+import com.example.blogsearch.blog.domain.response.BlogSearchResponse;
+import com.example.blogsearch.blog.service.BlogService;
+import com.example.blogsearch.common.response.ApiErrorResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

@@ -1,6 +1,6 @@
-package com.example.blogapi.common.exceptionhandler;
+package com.example.blogsearch.common.exceptionhandler;
 
-import com.example.blogapi.common.response.ApiErrorResponse;
+import com.example.blogsearch.common.response.ApiErrorResponse;
 import io.github.resilience4j.circuitbreaker.CallNotPermittedException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.example.blogapi.blog.domain.response;
+package com.example.blogsearch.blog.domain.response;
 
 import lombok.Builder;
 

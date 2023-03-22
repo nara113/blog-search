@@ -1,4 +1,4 @@
-package com.example.blogapi.keyword.config;
+package com.example.blogsearch.keyword.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;

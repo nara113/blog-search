@@ -1,4 +1,4 @@
-package com.example.blogapi.blog.config;
+package com.example.blogsearch.blog.config;
 
 import feign.RequestInterceptor;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,6 +1,6 @@
-package com.example.blogapi.keyword.domain;
+package com.example.blogsearch.keyword.domain;
 
-import com.example.blogapi.keyword.entity.KeywordCount;
+import com.example.blogsearch.keyword.entity.KeywordCount;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 @Schema(description = "인기 검색어")

@@ -1,4 +1,4 @@
-package com.example.blogapi.blog.config;
+package com.example.blogsearch.blog.config;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;

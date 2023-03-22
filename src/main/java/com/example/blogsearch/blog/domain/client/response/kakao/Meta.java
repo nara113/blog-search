@@ -1,4 +1,4 @@
-package com.example.blogapi.blog.domain.client.response.kakao;
+package com.example.blogsearch.blog.domain.client.response.kakao;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

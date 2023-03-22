@@ -1,7 +1,7 @@
-package com.example.blogapi.keyword.controller;
+package com.example.blogsearch.keyword.controller;
 
-import com.example.blogapi.keyword.domain.PopularKeyword;
-import com.example.blogapi.keyword.service.PopularKeywordService;
+import com.example.blogsearch.keyword.domain.PopularKeyword;
+import com.example.blogsearch.keyword.service.PopularKeywordService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

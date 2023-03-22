@@ -1,4 +1,4 @@
-package com.example.blogapi.blog.config;
+package com.example.blogsearch.blog.config;
 
 import com.google.common.base.Charsets;
 import feign.Logger;
@@ -17,7 +17,7 @@ import java.time.Instant;
 import java.util.Date;
 
 @Slf4j
-@EnableFeignClients("com.example.blogapi")
+@EnableFeignClients("com.example.blogsearch")
 @Configuration
 public class OpenFeignConfig {
 

@@ -1,6 +1,6 @@
-package com.example.blogapi.keyword.scheduler;
+package com.example.blogsearch.keyword.scheduler;
 
-import com.example.blogapi.keyword.service.PopularKeywordService;
+import com.example.blogsearch.keyword.service.PopularKeywordService;
 import com.google.common.util.concurrent.AtomicLongMap;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

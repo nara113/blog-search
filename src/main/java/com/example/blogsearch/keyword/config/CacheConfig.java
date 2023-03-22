@@ -1,4 +1,4 @@
-package com.example.blogapi.keyword.config;
+package com.example.blogsearch.keyword.config;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
 import org.springframework.cache.CacheManager;

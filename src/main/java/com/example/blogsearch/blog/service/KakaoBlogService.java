@@ -1,9 +1,9 @@
-package com.example.blogapi.blog.service;
+package com.example.blogsearch.blog.service;
 
-import com.example.blogapi.blog.client.KakaoBlogClient;
-import com.example.blogapi.blog.domain.client.response.kakao.KakaoApiResponse;
-import com.example.blogapi.blog.domain.request.BlogSearchRequest;
-import com.example.blogapi.blog.domain.response.BlogSearchResponse;
+import com.example.blogsearch.blog.client.KakaoBlogClient;
+import com.example.blogsearch.blog.domain.client.response.kakao.KakaoApiResponse;
+import com.example.blogsearch.blog.domain.request.BlogSearchRequest;
+import com.example.blogsearch.blog.domain.response.BlogSearchResponse;
 import feign.RetryableException;
 import io.github.resilience4j.circuitbreaker.CallNotPermittedException;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;

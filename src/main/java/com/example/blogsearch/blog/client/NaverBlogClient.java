@@ -1,7 +1,7 @@
-package com.example.blogapi.blog.client;
+package com.example.blogsearch.blog.client;
 
-import com.example.blogapi.blog.config.NaverFeignClientConfig;
-import com.example.blogapi.blog.domain.client.response.naver.NaverApiResponse;
+import com.example.blogsearch.blog.config.NaverFeignClientConfig;
+import com.example.blogsearch.blog.domain.client.response.naver.NaverApiResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

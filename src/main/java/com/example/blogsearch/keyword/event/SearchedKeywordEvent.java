@@ -1,4 +1,4 @@
-package com.example.blogapi.keyword.event;
+package com.example.blogsearch.keyword.event;
 
 public record SearchedKeywordEvent(String keyword) {
 }

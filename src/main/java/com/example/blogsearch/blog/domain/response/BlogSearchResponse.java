@@ -1,7 +1,7 @@
-package com.example.blogapi.blog.domain.response;
+package com.example.blogsearch.blog.domain.response;
 
-import com.example.blogapi.blog.domain.client.response.kakao.KakaoApiResponse;
-import com.example.blogapi.blog.domain.client.response.naver.NaverApiResponse;
+import com.example.blogsearch.blog.domain.client.response.kakao.KakaoApiResponse;
+import com.example.blogsearch.blog.domain.client.response.naver.NaverApiResponse;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AccessLevel;
 import lombok.Getter;

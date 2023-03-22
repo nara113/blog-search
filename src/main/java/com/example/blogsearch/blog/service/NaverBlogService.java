@@ -1,9 +1,9 @@
-package com.example.blogapi.blog.service;
+package com.example.blogsearch.blog.service;
 
-import com.example.blogapi.blog.client.NaverBlogClient;
-import com.example.blogapi.blog.domain.client.response.naver.NaverApiResponse;
-import com.example.blogapi.blog.domain.request.BlogSearchRequest;
-import com.example.blogapi.blog.domain.response.BlogSearchResponse;
+import com.example.blogsearch.blog.client.NaverBlogClient;
+import com.example.blogsearch.blog.domain.client.response.naver.NaverApiResponse;
+import com.example.blogsearch.blog.domain.request.BlogSearchRequest;
+import com.example.blogsearch.blog.domain.response.BlogSearchResponse;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.retry.annotation.Retry;
 import lombok.RequiredArgsConstructor;

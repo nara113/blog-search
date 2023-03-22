@@ -1,4 +1,4 @@
-package com.example.blogapi.keyword.config;
+package com.example.blogsearch.keyword.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

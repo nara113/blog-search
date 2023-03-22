@@ -1,6 +1,6 @@
-package com.example.blogapi.keyword.service;
+package com.example.blogsearch.keyword.service;
 
-import com.example.blogapi.keyword.repository.KeywordCountRepository;
+import com.example.blogsearch.keyword.repository.KeywordCountRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
