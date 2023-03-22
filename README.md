@@ -18,3 +18,6 @@
 
 ## API 명세
 - http://localhost:8080/swagger-ui/index.html
+
+## Executable jar
+- https://github.com/nara113/blog-search/releases/tag/v0.0.1
