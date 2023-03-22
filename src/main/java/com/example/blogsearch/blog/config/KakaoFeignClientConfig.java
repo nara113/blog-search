@@ -16,15 +16,6 @@ public class KakaoFeignClientConfig {
     }
 
     @Bean
-    public FeignFormatterRegistrar dateTimeFormatterRegistrar() {
-        return registry -> {
-            DateTimeFormatterRegistrar registrar = new DateTimeFormatterRegistrar();
-            registrar.setUseIsoFormat(true);
-            registrar.registerFormatters(registry);
-        };
-    }
-
-    @Bean
     public RequestInterceptor requestInterceptor() {
         return requestTemplate ->
                 requestTemplate.header(HttpHeaders.AUTHORIZATION, restApiKey);
