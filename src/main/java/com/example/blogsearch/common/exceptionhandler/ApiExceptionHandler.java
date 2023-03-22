@@ -12,12 +12,17 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
 public class ApiExceptionHandler {
-    @ExceptionHandler({CallNotPermittedException.class})
+    @ExceptionHandler(CallNotPermittedException.class)
     public ResponseEntity<ApiErrorResponse> handleCallNotPermittedException() {
         return ApiErrorResponse.toResponseEntity(HttpStatus.SERVICE_UNAVAILABLE, "server error.");
     }
 
-    @ExceptionHandler({IllegalArgumentException.class, IllegalStateException.class})
+    @ExceptionHandler(IllegalStateException.class)
+    private ResponseEntity<ApiErrorResponse> handleIllegalStateException(IllegalStateException exception) {
+        return ApiErrorResponse.toResponseEntity(HttpStatus.SERVICE_UNAVAILABLE, exception.getMessage());
+    }
+
+    @ExceptionHandler(IllegalArgumentException.class)
     private ResponseEntity<ApiErrorResponse> handleIllegalException(Exception exception) {
         return ApiErrorResponse.toResponseEntity(HttpStatus.BAD_REQUEST, exception.getMessage());
     }

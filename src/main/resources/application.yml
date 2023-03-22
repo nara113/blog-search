@@ -27,11 +27,6 @@ spring:
 
   cloud:
     openfeign:
-      client:
-        config:
-          testBlogClient:
-            connectTimeout: 1000
-            readTimeout: 1000
       okhttp:
         enabled: true
       httpclient:
@@ -54,17 +49,6 @@ logging:
     com.example.blogapi: DEBUG
     org.hibernate.SQL: debug
     reactor.netty.http.client: DEBUG
-
-management:
-  endpoint:
-    health:
-      show-details: always
-  health:
-    circuitbreakers:
-      enabled: true
-    ratelimiters:
-      enabled: true
-
 
 resilience4j.circuitbreaker:
   circuit-breaker-aspect-order: 1
